@@ -1,0 +1,11 @@
+diff -rupN cmake-2.6.4.old/Modules/FindJNI.cmake cmake-2.6.4/Modules/FindJNI.cmake
+--- cmake-2.6.4.old/Modules/FindJNI.cmake	2009-04-28 16:22:59.000000000 -0400
++++ cmake-2.6.4/Modules/FindJNI.cmake	2009-11-15 03:26:13.000000000 -0500
+@@ -22,6 +22,7 @@ SET(JAVA_AWT_LIBRARY_DIRECTORIES
+   $ENV{JAVA_HOME}/jre/lib/i386
+   $ENV{JAVA_HOME}/jre/lib/amd64
+   $ENV{JAVA_HOME}/jre/lib/ppc
++  $ENV{JAVA_HOME}/jre/lib/ppc64
+   /usr/lib
+   /usr/local/lib
+   /usr/lib/jvm/java/lib
